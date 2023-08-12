@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* resets */
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: 'Poppins', sans-serif;
+}
+/* ultility */
+.container{
+     width: 80vw;
+     margin: auto;
+     justify-content: space-between;
+}
+.flex{
+     display: flex;
+     align-items: center;
+}
+ul{
+     list-style: none;
+     color:white;
+}
+
+/* navbar */
+.navbar{
+     background-color: #2874F0;
+}
+.container ul{
+     gap:4rem;
+     justify-content: center;
+}
+.container ul li img{
+     width:100px;
+     padding:13px 0 5px 0;
+}
+.left input{
+     flex-grow: 3;
+}
+/* bannersection */
+.container1{
+     /* max-width: 80vw; */
+     margin:0 3rem;
+     gap: 2rem;
+}
+.container1 img{
+     width:100px;
+}
+.img1{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+/* header-section */
+.header-section img{
+     width:100vw;
+     margin:20px 0px;
+}
+/* buy-items-section */
+.card{
+     flex-direction: column;
+     justify-content: center;
+}
+.buyitems-section{
+     gap: 50px;
+     width: 95vw;
+     margin:auto;
+     border: 2px solid gray;
+     padding:50px;
+}
+.card img{
+     height:170px;
+}
+.separater
+{
+     display: flex;
+     flex-direction: column;
+     margin:20px 0;
+     gap: 100px;
+}
